@@ -18,7 +18,7 @@ int main() {
 		else if (i % 3 == 0) {
 			cout << "Fizz" << endl;
 		}
-		//If the input can be divided by 3 with no remainder
+		//If the input can be divided by 5 with no remainder
 		else if (i % 5 == 0) {
 			cout << "Buzz" << endl;
 		}
