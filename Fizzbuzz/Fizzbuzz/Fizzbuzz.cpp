@@ -1,14 +1,17 @@
 /*
-Author : SolarFlare
-Program: Simple Fizzbuzz Program
+	Author : SolarFlare
+	Program: Simple Fizzbuzz Program
 */
 
-//Include input/output stream
-#include <iostream>
-//Using standard namespace
-using namespace std;
+//Include fizzbuzz header file
+#include "Fizzbuzz.h"
 
 int main() {
+	fizzBuzz();
+	return 0;
+}
+
+int fizzBuzz() {
 	for (int i = 1; i <= 100; i++) {
 		//If the input can be divided by 3 or 5 with no remainder
 		if ((i % 3 == 0) && (i % 5 == 0)) {
@@ -28,4 +31,5 @@ int main() {
 	}
 	//Await user input before ending
 	cin.get();
+	return 0;
 }
