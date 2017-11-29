@@ -1,6 +1,6 @@
 /*
 Author : SolarFlare
-Program: Simple Fizzbuzz program
+Program: Simple Fizzbuzz Program
 */
 
 //Include input/output stream
